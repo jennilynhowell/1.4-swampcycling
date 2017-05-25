@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2);
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+
+.site-header {
+  text-align: center;
+  background-image: url("../img/header-background.jpg");
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  color: #fff;
+}
+
+.header-wrapper {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 900px;
+  background-image: url("../img/logo.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  -webkit-filter: invert(100%);
+}
+
+.main-heading, .callout-msg, .contact-msg, .contact-phone {
+  font-family: Poiret One, Arial, sans-serif;
+}
+
+.main-heading {
+  font-size: 4em;
+  padding: 10px;
+    text-shadow: 1.5px 1.5px 1.5px #323232;
+}
+
+.divider {
+  margin: 0px 100px 0px 100px;
+}
+
+.subheader-msg {
+  font-family: Oleo Script, Helvetica, sans-serif;
+  font-size: 1.5em;
+  padding: 15px;
+  text-shadow: 1.5px 1.5px 1.5px #323232;
+}
+
+.image-cards {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.single-img-card {
+  margin: 10px;
+  box-shadow: 5px 5px 5px #b3b5b7;
+}
+
+#left-img {
+  background-image: url("../img/left-img.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+
+#middle-img {
+  background-image: url("../img/middle-img.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+
+#right-img {
+  background-image: url("../img/right-img.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+
+.callout-wrapper {
+  position: relative;
+  text-align: center;
+  background-color: #43996A;
+  height: 150px;
+  color: #fff;
+  padding: 10px auto;
+}
+
+.callout-msg {
+  position: absolute;
+  top: 20px;
+  right: 250px;
+  left: 250px;
+  text-shadow: 1.5px 1.5px 1.5px #323232;
+  font-size: 1.3em;
+}
+
+.contact-wrapper {
+  text-align: center;
+  background-color: #fff;
+  height: 200px;
+  color: #000000;
+  padding: 30px 50px 10px 50px;
+}
+
+.contact-phone, .contact-email, .contact-email {
+  padding: 10px;
+  margin: 20px;
+}
+
+.footer-wrapper {
+  text-align: center;
+  background-color: #323232;
+  height: 40px;
+  color: #fff;
+  padding: 10px;
+}
+
+.site-footer-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.5em;
+
+}
